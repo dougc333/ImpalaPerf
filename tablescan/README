@@ -1,0 +1,5 @@
+simple table scan; select count(*) from blkdev.testbigdata. 
+
+Table size > page cache memory or free -g 
+
+
