@@ -1,0 +1,14 @@
+read file from spark w/# of executors
+
+val testfile=sc.textFile("/impaladata/testdata100chars.csv")
+val lineLen = testfile.map(x->x.length())
+val totLength = lineLen.reduce((a,b)=>a+b)
+print totLength
+
+
+#store this as 1 big files vs. lots of small files in a directory
+#measure time/speed 
+
+write file to spark w/# of executors
+
+

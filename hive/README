@@ -1,0 +1,6 @@
+TEZ not supported by CDH
+
+run hive queries based on 
+1) read/number of rows
+2) joins
+
