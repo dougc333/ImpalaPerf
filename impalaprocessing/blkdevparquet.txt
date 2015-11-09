@@ -1,0 +1,15 @@
+[r2341-d5-us32.dssd.com:21000] > insert overwrite into table table100charsparquet select * from blkdev.table100chars;
+Query: insert overwrite into table table100charsparquet select * from blkdev.table100chars
+ERROR: AnalysisException: Syntax error in line 1:
+insert overwrite into table table100charsparq...
+                 ^
+Encountered: INTO
+Expected: TABLE, IDENTIFIER
+
+CAUSED BY: Exception: Syntax error
+
+[r2341-d5-us32.dssd.com:21000] > insert overwrite table table100charsparquet select * from blkdev.table100chars;
+Query: insert overwrite table table100charsparquet select * from blkdev.table100chars
+Inserted 1080000000 row(s) in 2246.49s
+
+
