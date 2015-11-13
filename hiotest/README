@@ -1,5 +1,8 @@
 colin mccabes code copied and mavenized 
 
+mvn install:install-file -Dfile=/opt/cloudera/parcels/CDH-5.4.7-1.cdh5.4.7.p0.3/lib/hadoop-hdfs/hadoop-hdfs-tests.jar -DgroupId=org.apache.hadoop -DartifactId=hadoop-hdfs-tests -Dversion=2.7.1 -Dpackaging=jar
+
+
 https://github.com/cmccabe/hio_test/blob/master/src/java/main/com/cloudera/HioBench.java
 
 
